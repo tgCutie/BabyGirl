@@ -242,11 +242,12 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"↯「<b>Showing Result: </b> ↯\n"
+        f"ID: <code>{user.id}</code>\n"
         f"First Name: {html.escape(user.first_name)}"
+        
     )
     if user.last_name:
         text += f"\nLast Name: `{html.escape(user.last_name)}`"
-      f"ID: <code>{user.id}</code>\n"
     if user.username:
         text += f"\nUsername: @{html.escape(user.username)}"
 

@@ -98,13 +98,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="red")
-    fname2 = "LogoByInnexia.png"
+    fname2 = "LogoByAngelina.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="💕 ᴍᴀᴅᴇ ʙʏ ʙᴀʙʏɢɪʀʟ🇮🇳")
+    await tbot.send_file(event.chat_id, fname2, caption="💕 ᴍᴀᴅᴇ ʙʏ ᴀɴɢᴇʟɪɴᴀ 🇮🇳")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @desk_babygirl, {e}')
+   await event.reply(f'Error Report @desk_angelina {e}')
 
 
 
@@ -117,7 +117,7 @@ async def lego(event):
  else:
      
     if not quew:
-       await event.reply('Provide Some Text To Draw!')
+       await event.reply('Give some Text!')
        return
     else:
        pass
@@ -152,7 +152,7 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
- ❍ /logo text :  Create your logo with your name
- ❍ /wlogo text :  Create your logo with your name
+ ❥ /logo text :  Create your logo with your name
+ ❥︎ /wlogo text :  Create your logo with your name
  """
 __mod_name__ = "Logo"

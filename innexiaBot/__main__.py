@@ -84,7 +84,7 @@ buttons = [
             text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBabyGirl_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", "), callback_data="help_back"
+        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", callback_data="help_back")
         InlineKeyboardButton(
             text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/bg_chatting"
         ),

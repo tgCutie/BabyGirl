@@ -114,7 +114,7 @@ def hpmanager(user):
 
 def make_bar(per):
     done = min(round(per / 10), 10)
-    return "☻︎" * done + "㋛︎" * (10 - done)
+    return "☻︎" * done + "○" * (10 - done)
 
 
 @run_async
@@ -238,12 +238,12 @@ def info(update: Update, context: CallbackContext):
     else:
         return
 
-    rep = message.reply_text("<code>Appraising...</code>", parse_mode=ParseMode.HTML)
+    rep = message.reply_text("<code>Finding...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"🏓「<b> Showing Result:</b> 」🏓\n"
+        f"「<b> Showing Result:</b> 」\n╭───────────\n"
+        f"✯ Showing stats of: [{html.escape(user.first_name)}](user.id)\n"
         f"ID: <code>{user.id}</code>\n"
-        f"First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
@@ -252,7 +252,7 @@ def info(update: Update, context: CallbackContext):
     if user.username:
         text += f"\nUsername: @{html.escape(user.username)}"
 
-    text += f"\nPermalink: {mention_html(user.id, 'link')}"
+  
 
     if chat.type != "private" and user_id != bot.id:
         _stext = "\nPresence: <code>{}</code>"
@@ -287,13 +287,13 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'God'."
+        text += "\n\nThis Person is 'God'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Hero Association'."
+        text += "\n\nThis user is 'My Developer🔥'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\nThis person is 'Dragon' and his Power level is near to my 'Owner'."
         disaster_level_present = True
     elif user.id in DEMONS:
         text += "\n\nThe Disaster level of this person is 'Demon'."
@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/OnePunchUpdates/155">?</a>]'.format(
+        text += ' [<a href="https://t.me/TheBG_news/4">✪</a>]'.format(
             bot.username
         )
 
@@ -357,7 +357,7 @@ def info(update: Update, context: CallbackContext):
         )
 
     rep.delete()
-
+6
 
 @run_async
 def about_me(update: Update, context: CallbackContext):
@@ -559,7 +559,7 @@ SET_ABOUT_HANDLER = DisableAbleCommandHandler("setme", set_about_me)
 GET_ABOUT_HANDLER = DisableAbleCommandHandler("me", about_me)
 
 dispatcher.add_handler(STATS_HANDLER)
-dispatcher.add_handler(ID_HANDLER)
+dispatcher.add_handler(ID_HANDLER)tt
 dispatcher.add_handler(GIFID_HANDLER)
 dispatcher.add_handler(INFO_HANDLER)
 dispatcher.add_handler(SET_BIO_HANDLER)

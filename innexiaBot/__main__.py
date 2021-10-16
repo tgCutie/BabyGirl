@@ -83,18 +83,19 @@ buttons = [
         InlineKeyboardButton(
             text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBabyGirl_robot?startgroup=true"),
     ],
-    [
-        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", callback_data="help_back")
-        InlineKeyboardButton(
-            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/bg_chatting"
-        ),
-        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
-    ],
+    
     [
         InlineKeyboardButton(
             text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢 ", url=f"https://t.me/TheBG_news"
         ),
         InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
+    ],
+    [
+        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/bg_chatting"
+        ),
+        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
     ],
 ]
 

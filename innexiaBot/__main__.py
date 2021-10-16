@@ -75,35 +75,33 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/239d990c5fe090d84ee87.mp4"
 
 PM_START_TEXT = """
-Hello 💕 I am BabyGirl[!](https://telegra.ph/file/779e61810b25b850f3033.jpg) : The Fastest and Safest Telegram Group Management Bot!\nClick on [Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ 🛠️](http://t.me/TheBabyGirl_robot?start=help) to know about my Features!
+**ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/a17622aa9487cffdb4ca2.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/desk_BG)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🔥", url="http://t.me/TheBabyGirl_robot?startgroup=true"),
+            text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBabyGirl_robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🎾 ᴍʏ ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/TheWarriorsNetwork"),
+        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", "), callback_data="help_back"
         InlineKeyboardButton(
-            text="ᴡʜᴀᴛ's ɴᴇᴡ❔", url=f"https://telegra.ph/BABY-GIRL-NEWS-10-14"
+            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/bg_chatting"
         ),
+        InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
     ],
     [
-        InlineKeyboardButton(text="⚡ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/desk_BG"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢", url=f"https://t.me/TheBG_news"
+            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📢 ", url=f"https://t.me/TheBG_news"
         ),
-    ],
-    [
-        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ 🛠️", callback_data="help_back"),
+        InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
     ],
 ]
 
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/f12c586c6b5731bfdbfdd.jpg)"""
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ** [.](https://telegra.ph/file/bf988ab3d73a34d6d8327.jpg)"""
 
 
 

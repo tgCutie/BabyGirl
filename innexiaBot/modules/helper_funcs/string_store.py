@@ -1,4 +1,4 @@
-### GDNIGHT = [
+GDNIGHT = [
     "`Good night keep your dreams alive`",
     "`Night, night, to a dear friend! May you sleep well!`",
     "`May the night fill with stars for you. May counting every one, give you contentment!`",
@@ -76,5 +76,3 @@ GDMORNING = [
     "`It is easy to imagine the world coming to an end. But it is difficult to imagine spending a day without my friends. Good morning.`",
 ]
 
-
-###

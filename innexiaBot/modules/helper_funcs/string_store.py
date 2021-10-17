@@ -1,4 +1,4 @@
-GDNIGHT = [
+### GDNIGHT = [
     "`Good night keep your dreams alive`",
     "`Night, night, to a dear friend! May you sleep well!`",
     "`May the night fill with stars for you. May counting every one, give you contentment!`",

@@ -19,7 +19,7 @@ async def tagall(client, message):
     await message.reply("`Processing.....`")
     sh = get_text(message)
     if not sh:
-        sh = "Hi!"
+        sh = "Hello Dear!"
     mentions = ""
     async for member in client.iter_chat_members(message.chat.id):
         mentions += member.user.mention + " "

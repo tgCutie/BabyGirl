@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/8abde0cb53e26744ae2dd.mp4"
+INNEXIA_IMG = "https://telegra.ph/file/927f9bc781d0dbfa3d5fd.jpg"
 
 PM_START_TEXT = """
 **ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/a17622aa9487cffdb4ca2.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/desk_BG)
@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBabyGirl_robot?startgroup=true"),
+            text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBG_bot?startgroup=true"),
     ],
     
     [

@@ -77,7 +77,7 @@ TRUTH = (
 "Do you ever talk in your sleep or sleep walk?",
 "When was a time that you embarrassed yourself in front of your crush?",
 "Have you ever regretted something you did in order to get a crush’s attention?",
-"What was your weirdest habit as a kid?",
+"What was your weirdest habit as a kid?",)
 
 DARE = (
     "Show the most embarrassing photo on your phone",

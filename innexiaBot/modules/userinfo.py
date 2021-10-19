@@ -241,8 +241,8 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text("<code>Finding...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"「<b> Showing Result:</b> 」\n╭───────────\n"
-        f"✯ Showing stats of: [{html.escape(user.first_name)}](user.id)\n"
+        f"「<b> Showing Result:</b> 」\n┏━━━━━━━━━━━━━━━━\n"
+        f"Name: [{html.escape(user.first_name)}](tg://user?id={user.id})\n"
         f"ID: <code>{user.id}</code>\n"
     )
 
@@ -255,7 +255,7 @@ def info(update: Update, context: CallbackContext):
   
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\nPresence: <code>{}</code>"
+        _stext = "\nLevel: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -271,7 +271,7 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("Admin")
     if user_id not in [bot.id, 777000, 1087968824]:
         userhp = hpmanager(user)
-        text += f"\n\n<b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
+        text += f"\n\n<b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[{make_bar(int(userhp['percentage']))} {userhp['percentage']}%]"
 
     try:
         spamwtc = sw.get_ban(int(user.id))

@@ -92,7 +92,7 @@ async def deezer(_, message):
     await m.delete()
 
 #Deezer
-# Credits for @TheHamkerCat
+# Credits for @CatBot
 
 import os
 import aiofiles
@@ -153,6 +153,6 @@ __help__ = """
 • `/video`** <songname artist(optional)>: download the video song in it's best quality available.
 • `/deezer`** <songname>: download from deezer
 • `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
-• `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
-"""
+• `/glyrics`** <song name> : This plugin searches for song lyrics with song name and artist.
+• `/play`** <song name> : This command can be used to play songs on VC."""
 

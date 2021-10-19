@@ -483,6 +483,7 @@ def set_about_bio(update: Update, context: CallbackContext):
             )
             return
 
+
         text = message.text
         bio = text.split(
             None, 1

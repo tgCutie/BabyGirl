@@ -18,7 +18,7 @@ TRUTH = (
     "Have you ever been caught checking someone out?",
                
                    "What is your biggest pet peeve?",
-"Are you a dog person or a cat person", and why?",
+"Are you a dog person or a cat person and why?",
 "What is your favorite board game?",
 "What is the weirdest thing that you have ever eaten",
 "What is your darkest fear",
@@ -29,7 +29,7 @@ TRUTH = (
 "What is the scariest dream that you’ve ever had",
 "Why did you break up with your last boyfriend or girlfriend?",
 "What do you look for in a boyfriend or girlfriend?",
-"Who have you loved, but they didn’t love you back?,
+"Who have you loved, but they didn’t love you back?",
 "What do you really hope your parents never find out about?",
 "When was the last time you lied?",
 "When was the last time you cried?",
@@ -37,7 +37,7 @@ TRUTH = (
 "What is the biggest mistake you’ve ever made?",
 "What is the most trouble you’ve been in?",
 "What is the meanest thing anyone has ever done to you?",
-"Have you ever cheated on a test?
+"Have you ever cheated on a test?",
 "What is your favorite childhood memory?",
 "Who is your secret crush?",
 "If you suddenly had the power of invisibility, what would you do?",

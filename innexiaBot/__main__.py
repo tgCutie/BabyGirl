@@ -93,7 +93,7 @@ buttons = [
     [
         InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/bg_chatting"
+            text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/chat_buzz"
         ),
         InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
     ],
@@ -789,7 +789,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ɪ ᴀᴍ ᴀʟɪᴠᴇ [!](https://telegra.ph/file/19acce9f638c5214c4399.jpg)")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🦋 ʀᴇsᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ! 💕")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"

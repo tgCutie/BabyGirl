@@ -190,7 +190,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh My God! Oh My God 😱 My Sweetest Owner Just Joined 🦋\nWelcome My Dear Owner 🎉 [!](https://telegra.ph/file/5cac67884e5c5cf640f8e.mp4)🔥 Woohhoo, Party Time", reply_to_message_id=reply
+                    "Oh My God! Oh My God 😱 My Sweetest Owner Just Joined 🦋\nWelcome My Dear Owner 🎉\n\n🔥 Woohhoo, Party Time", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"

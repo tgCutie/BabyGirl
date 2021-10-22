@@ -92,7 +92,7 @@ buttons = [
         InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
     ],
     [
-        InlineKeyboardButton(text="⧐ ᴘʀᴏғɪʟᴇ⧏", url=f"tg://settings/),
+        InlineKeyboardButton(text="⧐ ᴘʀᴏғɪʟᴇ⧏", url=f"tg://settings/"),
         InlineKeyboardButton(
             text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/chat_buzz"
         ),

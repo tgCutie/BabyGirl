@@ -75,13 +75,14 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/927f9bc781d0dbfa3d5fd.jpg"
 
 PM_START_TEXT = """
-**ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/5336bc887ad2eafbf6374.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/desk_BG)
+**ᴛʜᴇ ʙᴀʙʏɢɪʀʟ ʀᴏʙᴏᴛ**\n┏━━━━━━━━━━━━━━━━\n╭──────────────\nㅤʜᴇʏ, ɪ ᴀᴍ ʙᴀʙʏɢɪʀʟ , ʜᴇʀᴇ ᴛᴏ\nㅤᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋[ㅤ](https://telegra.ph/file/d26c0d782bf5b4711ef45.jpg)\n╰──────────────\n╭──────────────\nㅤᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ\nㅤᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴs.\n╰──────────────\n┗━━━━━━━━━━━━━━━━\n\n[@ᴛᴇᴀᴍʙᴀʙʏɢɪʀʟ](http://t.me/desk_BG)
 """
+
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 💕", url="http://t.me/TheBG_bot?startgroup=true"),
+            text="🔥 ᴀᴅᴅ ʙᴀʙʏɢɪʀʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ! 🦋", url="http://t.me/TheBG_bot?startgroup=true"),
     ],
     
     [
@@ -91,14 +92,16 @@ buttons = [
         InlineKeyboardButton(text="❔ ᴍʏ ɴᴇᴛᴡᴏʀᴋ",url=f"https://t.me/TheWarriorsNetwork"),
     ],
     [
-        InlineKeyboardButton(text="⧐ʜᴇʟᴘ⧏", callback_data="help_back"),
+        InlineKeyboardButton(text="⧐ ᴘʀᴏғɪʟᴇ⧏", url=f"tg://settings/),
         InlineKeyboardButton(
             text="ϟ ᴄʜᴀᴛ ϟ", url=f"http://t.me/chat_buzz"
         ),
         InlineKeyboardButton(text="⩥sᴜᴘᴘᴏʀᴛ⩤", url=f"https://t.me/desk_BG"),
     ],
+    [
+  InlineKeyboardButton(text="❔ʜᴇʟᴘ ", callback_data="help_back"),
+    ],
 ]
-
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ**

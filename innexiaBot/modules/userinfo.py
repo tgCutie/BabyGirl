@@ -296,7 +296,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThis person is 'Dragon' and his Power level is near to my 'Owner'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\nThe Disaster level of this person is 'Sudo'."
         disaster_level_present = True
     elif user.id in TIGERS:
         text += "\n\nThe Disaster level of this person is 'Tiger'."
@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/TheBG_news/4">✪</a>]'.format(
+        text += ' [<a href="https://t.me/TheBG_news/4">What is..?🦋</a>]'.format(
             bot.username
         )
 
